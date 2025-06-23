@@ -1,0 +1,80 @@
+body {
+    font-family: "Papyrus", serif;
+    background-color: #e0e0e0;
+}
+table, th, td {
+    border: 1px solid #000000;
+}
+.imagem {
+    width: 100px;
+}
+.v1{
+    flex: center;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 700px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+/* parte de cima da tabela */
+tr{
+    background-color: #424242;
+    color: #bdbdbd;
+    
+}
+/* parte de dentro da tabela */
+td{
+    background-color: #757575;
+    color: #eeeeee;
+}
+/* links */
+a{
+  color: #e0e0e0;  
+}
+.a1{
+    color: #5483b3;
+}
+/* background do modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* conteudo do modal */
+.modal-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* botão de fechar (X) */
+.close {
+    color: #8a8383;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* imagem do ver funcionário */
+.i1{
+    width: auto;
+    height: 425px;
+}
