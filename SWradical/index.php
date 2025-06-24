@@ -78,20 +78,12 @@
 						
 	
 
-						<div class=\"modal-content\">
-							<span class=\"close\">&times;</span>
-							<p>Ao realizar essa ação não à como restaurar os dados excluidos</p>
-							<div class=\"modal-footer\">
-							<a href=\"excluir.php?id=$id\"><button type=\"button\" class=\"btn btn-primary\">Excluir</button></a>
-						</div>
-						</div>
-
-						</div>
 						";
-					echo "</tr>\n";
-				}
-				echo "</table>";
-				
+						echo "</tr>\n";
+					}
+					
+					echo "</table>";
+					
 				mysqli_close($conexao);
 			} catch (Exception $e) {
 				echo "<h2>Aconteceu um erro:<br>" . $e->GetMessage() ."</h2>\n";
@@ -102,7 +94,20 @@
 			   ||> R=SELECT "não sei pq" 
 			   |> CREATE > insert > upload (tem no w3 caso queira procurar)
 			*/
+			
 		?>	
+			<div id="modalExcluir" class="modal" style="display: none">
+			<div class="modal-content">
+				<span class="close" onclick="fecharModal()"></span>
+				<h4>Tem certeza que deseja excluir este registro?</h4><br>
+				<p>Ao excluir este elemento você não poderá mais restaurá-lo!</p>
+				<form method="POST" action="excluir.php">
+					<input type="hidden" name="id" id="idExcluir">
+					<button type="submit" class="btn btn-danger">Sim</button>
+					<button type="button" class="btn btn-secondary" onclick="fecharModal()">Cancelar</button>
+				</form>
+			</div>
+		</div>
 		</div>
 	</body>
 </html>

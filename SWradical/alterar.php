@@ -22,7 +22,10 @@ try {
             $sqlconsulta = "SELECT imagem FROM tabelaimg WHERE id = $id";
             $resultado = @mysqli_query($conexao, $sqlconsulta);
             $dados = mysqli_fetch_assoc($resultado);
+
+            $target_dir = "imagens/";
             $imagem_antiga = $dados['imagem'];
+            $imagem_antigaTarget = $target_dir.$dados["imagem"];
 
             // Apagar a imagem se não for "semimagem.jpg"
             if (!empty($imagem_antiga) && file_exists("imagens/" . $imagem_antiga) && $imagem_antiga !== "semimagem.jpg") {

@@ -23,12 +23,12 @@
 				$dados = mysqli_fetch_assoc($query);
 
 				$target_dir = "imagens/";
-				$imagemVelha = $dados["Foto"];
-				$ImagemVelhaTarget = $target_dir.$dados["Foto"];
+				$imagem_antiga = $dados["imagem"];
+				$imagem_antigaTarget = $target_dir.$dados["imagem"];
 
 
-				if(file_exists($ImagemVelhaTarget)){
-					unlink($ImagemVelhaTarget);
+				if(file_exists($imagem_antigaTarget)){
+					unlink($imagem_antigaTarget);
 				}
 
 				$sql = "delete from tabelaimg WHERE id = $id";
