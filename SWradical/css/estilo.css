@@ -1,9 +1,12 @@
 body {
-    font-family: "Papyrus", serif;
+    font-family: "Times New Roman", Times, serif;
     background-color: #e0e0e0;
 }
 table, th, td {
     border: 1px solid #000000;
+}
+table{
+    border-radius: 20px;
 }
 .imagem {
     width: 100px;
@@ -20,7 +23,8 @@ table, th, td {
 }
 
 .v2{
-    background-color: #888;
+    background-color: #9e9e9e;
+    border-radius: 15%;
 }
 /* parte de cima da tabela */
 tr{
