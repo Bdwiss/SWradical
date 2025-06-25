@@ -36,7 +36,7 @@
 				</header>\n";
 				echo "<table>\n";// note que abri echo com aspas para executar                                             
 				//comando html e os atributos das tags com apostrofe(elu é neutre)
-				echo "<tr>\n
+				echo "<tr class=\"text-center\">\n
 						<th width=\"30px\" align=\"center\">Id</th>\n
 						<th width=\"100px\">CPF</th>\n
 						<th width=\"250px\">Funcionário</th>\n
@@ -46,7 +46,7 @@
 					</tr>\n";
 
 				while($dados = mysqli_fetch_assoc($query)){
-					echo "<tr>\n";
+					echo "<tr class=\"text-center\">\n";
 					echo "<td align='center'>". $dados["id"]."</td>\n";
 					echo "<td>{$dados["cpf"]}</td>\n";
 					echo "<td>". $dados['funcionario']."</td>\n";
@@ -59,13 +59,13 @@
 						$imagem = $dados["imagem"];
 					}
 					$id = base64_encode($dados["id"]);
-					echo "<td>
+					echo "<td class=\"text-center\">
 							<a href=\"verfuncionario
 							.php?id=$id\">
 								<img class=\"imagem\" src=\"imagens/$imagem\">
 							</a>
 						</td>\n";
-					echo "<td>
+						echo "<td class=\"\">	
 							<a href=\"verfuncionario.php?id=$id\">
 								Visualizar
 							</a>&nbsp;&nbsp;

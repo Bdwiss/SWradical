@@ -13,10 +13,14 @@ table, th, td {
     align-items: center;
     justify-content: center;
     height: 50%;
-    width: 700px;
+    width: 900px;
     padding-top: 25px;
     padding-bottom: 25px;
     margin: auto;
+}
+
+.v2{
+    background-color: #888;
 }
 /* parte de cima da tabela */
 tr{
