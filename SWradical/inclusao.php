@@ -25,10 +25,10 @@
 				<div class="collapse navbar-collapse" id="menuNavbar"> 
 					<div class="navbar-nav">
 						<a href="inclusao.php" class="nav-link">Cadastrar</a>
-						<a href="#" class="nav-link">Atualizar</a> 
+						<a href="inclusao.php" class="nav-link">Atualizar</a> 
 					</div>
 				</div>
-				<span class="navbar-text">Registros da AyLu.corp</span>
+				<span class="navbar-text">Registrar Funcionário</span>
 			</div>
 		</nav>
 

@@ -25,7 +25,7 @@
 				<div class="collapse navbar-collapse" id="menuNavbar"> 
 					<div class="navbar-nav">
 						<a href="inclusao.php" class="nav-link">Cadastrar</a>
-						<a href="#" class="nav-link">Atualizar</a> 
+						<a href="index.php" class="nav-link">Atualizar</a> 
 						<form action="#" method="post">
 						<input type="text" name="funcionario" maxlength="80" class="pesq">
 						<button type="submit" class="btn btn-secondary">Pesquisar</button>
@@ -115,15 +115,17 @@
 				?>	
 				<br><br>
 				<div id="modalExcluir" class="modal" style="display: none">
-					<div class="modal-content">
-						<span class="close" onclick="fecharModal()"></span>
-						<h4>Tem certeza que deseja excluir este registro?</h4><br>
-						<p>Ao excluir este elemento você não poderá mais restaurá-lo!</p>
-						<form method="POST" action="excluir.php">
-							<input type="hidden" name="id" id="idExcluir">
-							<button type="submit" class="btn btn-danger">Sim</button>
-							<button type="button" class="btn btn-secondary" onclick="fecharModal()">Cancelar</button>
-						</form>
+					<div class="modal-content modal-dialog">
+						
+
+							<h4>Tem certeza que deseja excluir este registro?</h4><br>
+							<p>Ao excluir este elemento você não poderá mais restaurá-lo!</p>
+							<form method="POST" action="excluir.php">
+								<input type="hidden" name="id" id="idExcluir">
+								<button type="submit" class="btn btn-danger">Sim</button>
+								<button type="button" class="btn btn-secondary" onclick="fecharModal()">Cancelar</button>
+							</form>
+						
 					</div>
 				</div>
 			</div>
