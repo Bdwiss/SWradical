@@ -26,6 +26,28 @@
 		</style>
 	</head>
 	<body>
+		<nav class="navbar bg-dark navbar-dark navbar-expand-sm py-3 sticky-top">
+			<div class="container">
+				<a href="index.php" class="navbar-brand d-flex align-itens-center">
+				<i class="bi bi-bag-fill"></i>
+				AyLu.corp
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menuNavbar"> 
+					<div class="navbar-nav">
+						<a href="inclusao.php" class="nav-link">Cadastrar</a>
+						<a href="verfuncionario.php" class="nav-link">Atualizar</a> 
+						<form action="#" method="post">
+						<input type="text" name="funcionario" maxlength="80" class="pesq">
+						<button type="submit" class="btn btn-secondary">Pesquisar</button>
+						</form>
+					</div>
+				</div>
+				<span class="navbar-text">Registros da empresa</span>
+			</div>
+		</nav>
 		<div class="v1">
 			<h3>Detalhes do Funcionário</h3>
 			<?php

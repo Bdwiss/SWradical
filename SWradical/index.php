@@ -13,9 +13,6 @@
 		<link rel="icon" href="imagens/icon.png">
 	</head>
 	<body>
-		<!--=====================================================-->
-		<!--navbar-->
-		<!--=====================================================-->
 		<nav class="navbar bg-dark navbar-dark navbar-expand-sm py-3 sticky-top">
 			<div class="container">
 				<a href="index.php" class="navbar-brand d-flex align-itens-center">
@@ -30,7 +27,7 @@
 						<a href="inclusao.php" class="nav-link">Cadastrar</a>
 						<a href="index.php" class="nav-link">Atualizar</a> 
 						<form action="#" method="post">
-						<input type="text" name="funcionario" maxlength="80">
+						<input type="text" name="funcionario" maxlength="80" class="pesq">
 						<button type="submit" class="btn btn-secondary">Pesquisar</button>
 						</form>
 					</div>

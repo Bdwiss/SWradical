@@ -8,6 +8,9 @@ table, th, td {
 table{
     border-radius: 20px;
 }
+.pesq{
+    border-radius: 15px;
+}
 .imagem {
     width: 100px;
 }
@@ -40,9 +43,6 @@ td{
 /* links */
 a{
   color: #e0e0e0;  
-}
-.a1{
-    color: #5483b3;
 }
 /* background do modal */
 .modal {
