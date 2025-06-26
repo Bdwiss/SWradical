@@ -9,6 +9,8 @@
 		<meta name="author" content="Luis e Aydan">
 		<link rel="stylesheet" href="css\bootstrap.min.css">
 		<link rel="stylesheet" href="css\estilo.css">
+		<link rel="stylesheet" href="css/font/bootstrap-icons.min.css">
+		<link rel="icon" href="imagens/icon.png">
 		<style>
 			table {
 				font-family: arial, sans-serif;
@@ -38,14 +40,10 @@
 				<div class="collapse navbar-collapse" id="menuNavbar"> 
 					<div class="navbar-nav">
 						<a href="inclusao.php" class="nav-link">Cadastrar</a>
-						<a href="verfuncionario.php" class="nav-link">Atualizar</a> 
-						<form action="#" method="post">
-						<input type="text" name="funcionario" maxlength="80" class="pesq">
-						<button type="submit" class="btn btn-secondary">Pesquisar</button>
-						</form>
+						<a href="#" class="nav-link">Atualizar</a>
 					</div>
 				</div>
-				<span class="navbar-text">Registros da empresa</span>
+				<span class="navbar-text">Registro de Funcionário</span>
 			</div>
 		</nav>
 		<div class="v1">
@@ -115,7 +113,8 @@
 				}		
 			?>
 			<br>
-			<a href="index.php" class="a1">Voltar</a>
+			<button type="button" class="btn btn-secondary" ><a href="index.php" class="a1">Voltar</a></button>
+			
 		</div>		
 	</body>
 </html>

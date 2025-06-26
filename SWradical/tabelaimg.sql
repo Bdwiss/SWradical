@@ -31,5 +31,6 @@ INSERT INTO `tabelaimg` (`cpf`, `funcionario`, `descricao`, `admicao`, `salario`
 (3634, 'Kleber Coelho', 'Desenvolvedor musical, tem experiência com fast food, editor, estagiário 6x1 da AyLu.corp', '2024-06-02', '900.00', 'kleber.png'),
 (2566546, 'Rafael Lange Severino', 'Game dev, profissional de investigação, CEO 0x7 da AyLu.corp', '2012-10-29', '70000.00', 'rafael.png'),
 (52346524523, 'Juliano Alvarenga Barros', 'Beta tester, criador de conteúdo da AyLu.corp', '2012-08-30', '10000.00', 'juliano.png'),
-(254235, 'Eduardo Pugliese Benvenuti', 'Editor, gerente de contabilidade da AyLu.corp', '2013-04-30', '12000.00', 'edu.png');
+(254235, 'Eduardo Pugliese Benvenuti', 'Editor, gerente de contabilidade da AyLu.corp', '2013-04-30', '12000.00', 'edu.png'),
+(463525, 'Thiago Ludo', 'Filósofo, editor, faz parte do setor criativo da AyLu.corp', '2023-04-03', '5000.00', '');
 

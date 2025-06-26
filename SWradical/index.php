@@ -8,8 +8,8 @@
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<meta name="author" content="Luis e Aydan">
 		<link rel="stylesheet" href="css\bootstrap.min.css">
-		<link rel="stylesheet" href="css/font/bootstrap-icons.min.css">
 		<link rel="stylesheet" href="css\estilo.css">
+		<link rel="stylesheet" href="css/font/bootstrap-icons.min.css">
 		<link rel="icon" href="imagens/icon.png">
 	</head>
 	<body>
@@ -25,14 +25,14 @@
 				<div class="collapse navbar-collapse" id="menuNavbar"> 
 					<div class="navbar-nav">
 						<a href="inclusao.php" class="nav-link">Cadastrar</a>
-						<a href="index.php" class="nav-link">Atualizar</a> 
+						<a href="#" class="nav-link">Atualizar</a> 
 						<form action="#" method="post">
 						<input type="text" name="funcionario" maxlength="80" class="pesq">
 						<button type="submit" class="btn btn-secondary">Pesquisar</button>
 						</form>
 					</div>
 				</div>
-				<span class="navbar-text">Registros da empresa</span>
+				<span class="navbar-text">Registros da AyLu.corp</span>
 			</div>
 		</nav>
 		<div class="v1 text-center">
